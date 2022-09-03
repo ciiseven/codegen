@@ -1,0 +1,19 @@
+[[source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[packages]
+lxml = "4.6.1"
+jinja2 = "3.0.3"
+codegen = {editable = true, path = "."}
+
+[dev-packages]
+tox = "*"
+pylint = "*"
+isort = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.9"
